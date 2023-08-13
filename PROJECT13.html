@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="android" content="تمرین سیزدهم , tic toc toe">
+    <meta name="auther" content="Babak chalacki">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+   <img src="wood.jpg" alt="wood">
+ <center>
+   <div id="pedar">
+      <table >
+         <tr>
+              <td>
+                  <button onclick="show_index(0, 0)" class="cell"></button>
+              </td>
+              <td>
+                  <button onclick="show_index(0, 1)" class="cell"></button>
+              </td>
+              <td>
+                  <button onclick="show_index(0, 2)" class="cell"></button>
+              </td>
+         </tr>
+         <tr> 
+              <td>
+                 <button onclick="show_index(1, 0)" class="cell"></button>
+              </td>
+              <td>
+                 <button onclick="show_index(1, 1)" class="cell"></button>
+              </td>
+              <td>
+                 <button onclick="show_index(1, 2)" class="cell"></button>
+              </td>
+      </tr>
+      <tr>
+          <td>
+             <button onclick="show_index(2, 0)" class="cell"></button>
+          </td>
+          <td>
+             <button onclick="show_index(2, 1)" class="cell"></button>
+          </td>
+          <td>
+             <button onclick="show_index(2, 2)" class="cell"></button>
+          </td>
+       </tr>
+   
+     </table>
+     </div>
+ </center>
+
+      <DIV id="scores">
+         <p>x scores: <b id="scores_x">0</b></p>
+         <p>o scores: <b id="scores_o">0</b></p>
+         <p> draw: <b id="scores_draw">0</b></p>
+      </DIV>
+
+     
+
+   <button id="btn">
+      <span class="circle1"></span>
+      <span class="circle2"></span>
+      <span class="circle3"></span>
+      <span class="circle4"></span>
+      <span class="circle5"></span>
+      <span id="result" class="text">RESTART</span>
+   </button>
+     
+
+ <script src="script.js"></script>
+</body>
+</html>
