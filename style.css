@@ -154,4 +154,21 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     transform: translate(-50%, -50%) scale(4);
     transition: 1.5s ease;
   }
+ #pedar2{
+    height: 0px;
+    position: absolute;
+    margin-top:-60%;
+    margin-left:49%;
+  }
+  #pedar2 button{
+    font-size: x-large;
+  }
+
+  h1{
+    background-color:rgba(255, 255, 255, 0);;
+    position: absolute;
+    color: #3aebdc;
+    margin-left: 41%;
+    margin-top:6%;
+  }
     
