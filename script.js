@@ -167,6 +167,16 @@ btn.onclick = function(){
                buttons[i][j].classList.remove("x")
                buttons[i][j].classList.remove("o")
                flags[i][j]=null
+
+              btn.onclick = function(){
+   obtn.style.display = "block";
+   xbtn.style.display = "block";
+   h1.style.display = "block";
+   scores_o.innerHTML = ("0");
+   scores_x.innerHTML = ("0");
+   b1 === null
+   alert("restart with yourself")
+   }
             }
          }
       }
